@@ -1,3 +1,7 @@
+body {
+	font-family: 'Manjari', sans-serif;
+}
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -156,4 +160,62 @@ th {
 	border: 1px solid #000000;
 	padding: 5px 20px;
 	text-align: center;
+}
+
+/* CSS da Página Inicial */
+
+.banner {
+	width: 100%;
+}
+
+.principal {
+	margin: 0 150px;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.mapa {
+	margin: 0 150px;
+	padding: 3em 0;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+
+.beneficios {
+	margin: 0 150px;
+}
+
+.imagembeneficios {
+	width: 40%;
 }
