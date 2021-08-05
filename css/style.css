@@ -1,5 +1,6 @@
 body {
 	font-family: 'Manjari', sans-serif;
+	font-size: 20px;
 }
 
 header {
@@ -96,10 +97,10 @@ footer {
 
 /* Página de contato */
 
-main {
+/* main {
 	width: 940px;
 	margin: 0 auto;
-}
+} */
 
 form {
 	margin: 40px 0px;
@@ -169,18 +170,21 @@ th {
 }
 
 .principal {
-	margin: 0 150px;
+	width: 1000px;
+	margin: 0 auto;
+	background: #FEFEFE;
+
 }
 
 .titulo-principal {
 	text-align: center;
 	font-size: 2em;
-	margin: 0 0 1em;
+	padding: 2em 0 1em 0;
 	clear: left;
 }
 
 .utensilios {
-	width: 120px;
+	width: 150px;
 	float: left;
 	margin: 0 20px 20px 0;
 }
@@ -198,8 +202,7 @@ th {
 }
 
 .mapa {
-	margin: 0 150px;
-	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888)
 }
 
 .mapa p {
@@ -207,15 +210,45 @@ th {
 	text-align: center;
 }
 
+.mapa-conteudo {
+	width: 1000px;
+	margin: 0 auto;
+}
+
 .video {
 	width: 560px;
-	margin: 2em auto;
+	margin: 0 auto;
 }
 
 .beneficios {
-	margin: 0 150px;
+	background: #888888;
 }
 
-.imagembeneficios {
+.conteudo-beneficios {
+	width: 1000px;
+	padding: 0 0 2em 0;
+	margin: 0 auto;
+
+}
+
+.lista-beneficios {
 	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5em;
+}
+
+.itens:before {
+	content: "★";
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.imagem-beneficios {
+	width: 60%;
 }
