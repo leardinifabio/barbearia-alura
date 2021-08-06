@@ -252,3 +252,29 @@ th {
 .imagem-beneficios {
 	width: 60%;
 }
+
+@media screen and (max-width: 480px) {
+
+	.caixa,
+	.principal,
+	.mapa-conteudo,
+	.conteudo-beneficios,
+	.video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.caixa nav {
+		position: static;
+		text-align: center;
+	}
+
+	.lista-beneficios,
+	.imagem-beneficios {
+		width: 100%;
+	}
+
+}
