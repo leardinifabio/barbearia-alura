@@ -49,7 +49,7 @@ nav a:hover {
 	text-align: center;
 	width: 30%;
 	vertical-align: top;
-	margin: 0 1.5%;
+	margin: 0 0.5em;
 	padding: 30px 20px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
@@ -163,7 +163,7 @@ th {
 	text-align: center;
 }
 
-/* CSS da Página Inicial */
+/* Página Inicial */
 
 .banner {
 	width: 100%;
@@ -255,12 +255,26 @@ th {
 
 @media screen and (max-width: 480px) {
 
+	/* Responsivo Home Page */
+
 	.caixa,
 	.principal,
-	.mapa-conteudo,
+	.mapa,
 	.conteudo-beneficios,
-	.video {
+	.video,
+	.produtos,
+	.produtos li,
+	form {
 		width: auto;
+		padding: 0 1em;
+	}
+
+	.mapa-conteudo {
+		width: auto;
+	}
+
+	p {
+		text-align: justify;
 	}
 
 	h1 {
@@ -276,5 +290,37 @@ th {
 	.imagem-beneficios {
 		width: 100%;
 	}
+
+	.copyright {
+		text-align: center;
+	}
+
+	.produtos li {
+		margin: 0.5em 0;
+	}
+
+	.produtos li h2,
+	.produtos li p {
+		padding: 0.5em 0;
+		text-align: center;
+	}
+
+	.form label {
+		text-align: justify;
+	}
+
+	.input-padrao {
+		width: 90%;
+	}
+
+	.enviar {
+		width: 80%;
+	}
+
+	.table-horarios {
+		width: 90%;
+		margin: 1em auto;
+	}
+
 
 }
