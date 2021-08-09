@@ -103,7 +103,8 @@ footer {
 } */
 
 form {
-	margin: 40px 0px;
+	width: 1000px;
+	margin: 40px auto;
 }
 
 form label,
@@ -147,8 +148,13 @@ form legend {
 	transform: scale(1.1);
 }
 
-table {
-	margin: 0 0 20px 0;
+.table {
+	margin: 20px auto;
+}
+
+.div-horarios {
+	width: 1000px;
+	margin: 2em auto;
 }
 
 th {
@@ -253,7 +259,7 @@ th {
 	width: 60%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 
 	/* Responsivo Home Page */
 
@@ -315,6 +321,10 @@ th {
 
 	.enviar {
 		width: 80%;
+	}
+
+	.div-horarios {
+		width: auto;
 	}
 
 	.table-horarios {
